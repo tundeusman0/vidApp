@@ -1,0 +1,93 @@
+#videos{
+    margin: 50px;
+    margin-top: 0;
+    padding: 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+video{
+    margin: 10px;
+}
+button{
+    max-width:100px;
+}
+.vid-btn{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.vid-scr{
+    /* max-width: 300px; */
+    max-height: 350px;
+    margin: 0 auto !important;
+    /* z-index: -1; */
+    /* overflow: auto; */
+    /* height: 500px; */
+}
+.vid-scr #vid2{
+    /* margin-left: 0; */
+}
+div#videos .video{
+    background: rgba(6, 168, 128, 0.281);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    justify-items: center;
+}
+div#videos .video #note{
+    margin-top: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 150px;
+}
+div#videos .video video{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+div.preview{
+    color: red;
+}
+#singleVid{
+    width: 380px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+#singleVid .video video{
+    width: 360px;
+    height: 280px;
+}
+
+@media only screen and (max-width: 767px){
+    div#videos .video video{
+    /* margin: 10px; */
+    width: 100px;
+    height: 150px;
+    }
+    div#videos .video{
+        padding: 5px;
+        margin: 5px;
+    }
+    div#videos{
+        margin: 5px;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    #singleVid{
+        width: 320px;
+        height: 300px;
+        margin: 0 ;
+        margin-bottom: 35px;
+    }
+    #singleVid .video video{
+        width: 300px;
+        height: 280px;
+    }
+}

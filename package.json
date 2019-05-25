@@ -1,0 +1,19 @@
+{
+  "name": "vidapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tundeusman0/vidApp.git"
+  },
+  "author": "tunde usman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tundeusman0/vidApp/issues"
+  },
+  "homepage": "https://github.com/tundeusman0/vidApp#readme"
+}
