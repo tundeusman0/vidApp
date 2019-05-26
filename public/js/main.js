@@ -64,7 +64,10 @@ let videoS = {
     frameRate: 30,
     height: 240,
     resizeMode: "none",
-    width: 320
+    width: 320,
+    facingMode: {
+        ideal: "environment"
+    }
 }
 
 let constraintObj = {
@@ -89,9 +92,9 @@ let constraintObj = {
     //     height: {
     //         exact: 200
     //     },
-    //     facingMode: {
-    //         ideal: "environment"
-    //     }
+        // facingMode: {
+        //     ideal: "environment"
+        // }
 
     // }
 };
