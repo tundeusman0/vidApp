@@ -47,9 +47,9 @@ let audio2 = {
     autoGainControl: false,
     channelCount: 2,
     deviceI: "default",
-    echoCancellation: false,
+    echoCancellation: true,
     latency: 0.01,
-    noiseSuppression: false,
+    noiseSuppression: true,
     sampleRate: 48000,
     sampleSize: 16,
     volume: 1
